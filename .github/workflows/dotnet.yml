@@ -34,8 +34,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        tag_name: ConsoleApp1
-        release_name: Release ConsoleApp1 1.1
+        tag_name: ConsoleApp1 1.1
+        release_name: Release ConsoleApp1 1.1.0
         body: TODO New Release.
         draft: false
         prerelease: false
