@@ -26,7 +26,7 @@ jobs:
       run: dotnet build --configuration Release --no-restore
       
     - name: Zip the Build
-      run: zip -r ${{ secrets.ReleaseZipName }} ./AppName/bin/Release/net8.0/ 
+      run: zip -r ${{ secrets.ReleaseZipName }} ./ConsoleApp1/bin/Release/net8.0/ 
       
     - name: Create Release
       id: create_release
